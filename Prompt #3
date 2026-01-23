@@ -1,0 +1,9 @@
+def f(x):
+    return (x**3 + 8)
+def if_statement(x):
+    if (x**3 + 8) > 27:
+        print("YAY!")
+
+x = 9
+f(x)
+if_statement(x)
