@@ -1,1 +1,7 @@
-
+x = 9.0
+y = 2.5
+z = 6
+w = 4
+print(x + y, type(x + y))
+print(z - w, type(z - w))
+print(x * z, type(x * z))
