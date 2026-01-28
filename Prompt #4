@@ -1,0 +1,15 @@
+class Jellyfish:
+    def __init__(self, arm_length, leg_length, num_eyes, tail, furry):
+        self.arm_length = arm_length
+        self.leg_length = leg_length
+        self.num_eyes = num_eyes
+        self.tail = tail
+        self.furry = furry
+
+    def describe(self):
+        print("Animal: Jellyfish")
+        print(f"Length of the arms: {self.arm_length}")
+        print(f"Length of the legs: {self.leg_length}")
+        print(f"Number of eyes: {self.num_eyes}")
+        print(f"Does it have a tail? {self.tail}")
+        print(f"Is it furry? {self.furry}")
