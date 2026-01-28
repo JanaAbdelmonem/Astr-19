@@ -1,6 +1,5 @@
 class Jellyfish:
     def __init__(self, arm_length, leg_length, num_eyes, has_tail, is_furry):
-        # physical characteristics
         self.arm_length = arm_length    
         self.leg_length = leg_length  
         self.num_eyes = num_eyes    
